@@ -61,12 +61,13 @@ namespace StackUsingSingleLinkList
                 }
             }
         }
-        
+
         static void Main(string[] args)
         {
             Stack s = new Stack();
             while (true)
             {
+                Console.WriteLine();
                 Console.WriteLine("\n***stack Menu***\n");
                 Console.WriteLine("1. Push ");
                 Console.WriteLine("2. pop ");
@@ -104,10 +105,5 @@ namespace StackUsingSingleLinkList
             }
         }
     }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
 }
+    
